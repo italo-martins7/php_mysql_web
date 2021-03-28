@@ -1,0 +1,53 @@
+body {
+  background-color: #d0d5da;
+  font-family: Arial, Helvetica, Arial;
+  font-size: 14px;
+}
+
+#container {
+  background: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.664);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#artigo-admin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#artigo-admin:hover {
+  background-color: #cccccc;
+}
+
+.botao {
+  padding: 5px;
+  background-color: rgb(65, 113, 158);
+  color: #ffffff;
+  font-weight: bold;
+  border: solid 1px rgb(4, 58, 109);
+}
+
+.campo-form {
+  margin: 10px 0;
+  display: block;
+}
+
+.botao-block {
+  display: block;
+  width: max-content;
+}
